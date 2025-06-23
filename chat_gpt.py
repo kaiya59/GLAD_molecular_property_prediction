@@ -9,7 +9,7 @@ from openai import OpenAI
 from tqdm import tqdm, trange
 from datetime import datetime
 
-client = OpenAI(api_key = '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')
+client = OpenAI(api_key = '')
 
 def api_call(smiles):
     response = client.chat.completions.create(
